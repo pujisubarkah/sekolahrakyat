@@ -69,11 +69,11 @@ const email = ref('')
 const password = ref('')
 const role = ref('student') // sementara kita pilih manual
 
-const { setUser } = useAuth()
+const { login } = useAuth()
 
 const handleLogin = async () => {
   // bisa ditambah validasi ke API
-  setUser(role.value as UserRole, email.value)
+  login(role.value)
   navigateTo('/dashboard')
 }
 </script>

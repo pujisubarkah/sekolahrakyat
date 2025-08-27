@@ -16,6 +16,7 @@
 </template>
 
 <script setup>
+definePageMeta({ layout: 'auth' })
 import Leaderboard from '~/components/Leaderboard.vue'
 </script>
 

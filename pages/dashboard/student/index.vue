@@ -20,6 +20,7 @@
 </template>
 
 <script setup>
+definePageMeta({ layout: 'auth' })
 import CourseCard from '~/components/CourseCard.vue'
 import GamificationBadge from '~/components/GamificationBadge.vue'
 </script>

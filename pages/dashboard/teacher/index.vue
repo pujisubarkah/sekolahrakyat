@@ -16,5 +16,6 @@
 </template>
 
 <script setup>
+definePageMeta({ layout: 'auth' })
 import QuizForm from '~/components/QuizForm.vue'
 </script>

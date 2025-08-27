@@ -5,7 +5,7 @@
       <!-- Kiri: Logo + Nama -->
       <div>
         <div class="flex items-center gap-2 mb-4">
-          <img src="/logo.png" alt="Logo" class="h-10 w-10 rounded-full bg-white p-1" />
+          <img src="/lanri_.png" alt="Logo" class="h-10 w-10 rounded-full bg-white p-1" />
           <span class="text-xl font-bold tracking-wide">Sekolah Rakyat</span>
         </div>
         <p class="text-gray-300 text-sm">
