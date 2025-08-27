@@ -9,7 +9,7 @@
           <p class="text-sm text-gray-500">Deadline: {{ task.deadline }}</p>
         </div>
         <NuxtLink
-          :to="`/assignments/${task.id}`"
+          :to="`/dashboard/student/tasks/${task.id}`"
           class="text-blue-600 hover:underline"
         >
           Kerjakan →
@@ -20,6 +20,7 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue'
 definePageMeta({ layout: 'auth' })
 const assignments = ref([
   { id: 1, title: 'Tugas Matematika Bab 1', deadline: '2025-09-05' },

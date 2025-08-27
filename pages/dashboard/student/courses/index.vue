@@ -7,7 +7,7 @@
         <h2 class="text-lg font-semibold">{{ course.title }}</h2>
         <p class="text-sm text-gray-600">{{ course.description }}</p>
         <NuxtLink
-          :to="`/courses/${course.id}`"
+          :to="`courses/${course.id}`"
           class="mt-3 inline-block text-blue-600 hover:underline"
         >
           Masuk Kelas →

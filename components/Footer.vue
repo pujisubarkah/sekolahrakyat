@@ -1,11 +1,11 @@
 <template>
-  <footer class="bg-[#002F6C] text-white mt-12">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+  <footer class="bg-[#002F6C] text-white mt-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 grid grid-cols-1 md:grid-cols-3 gap-4">
 
       <!-- Kiri: Logo + Nama -->
       <div>
         <div class="flex items-center gap-2 mb-4">
-          <img src="/lanri_.png" alt="Logo" class="h-10 w-10 rounded-full bg-white p-1" />
+          <img src="https://sekolahrakyat.kemensos.go.id/assets/img/logo-tag.PNG" alt="Logo Kemensos" style="max-height: 40px; background: white; border-radius: 8px; padding: 4px; border: 1px solid #e5e7eb;" />
           <span class="text-xl font-bold tracking-wide">Sekolah Rakyat</span>
         </div>
         <p class="text-gray-300 text-sm">
@@ -38,7 +38,7 @@
     </div>
 
     <!-- Bottom -->
-    <div class="border-t border-gray-600 py-4 text-center text-sm text-gray-400">
+  <div class="border-t border-gray-600 py-2 text-center text-sm text-gray-400">
       © {{ new Date().getFullYear() }} Sekolah Rakyat. Semua Hak Dilindungi.
     </div>
   </footer>

@@ -1,10 +1,11 @@
 <template>
-  <nav class="bg-gradient-to-br from-blue-500 via-blue-700 to-yellow-300 text-white shadow-md">
+  <nav class="bg-[#002F6C] text-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <!-- Logo -->
-        <div class="flex-shrink-0 text-xl font-bold">
-          Sekolah Rakyat
+        <div class="flex-shrink-0 flex items-center gap-2">
+          <img src="https://sekolahrakyat.kemensos.go.id/assets/img/logo-tag.PNG" alt="Logo Kemensos" style="max-height: 60px; background: white; border-radius: 8px; padding: 4px; border: 1px solid #e5e7eb;" />
+          <span class="text-xl font-bold">Sekolah Rakyat</span>
         </div>
 
         <!-- Menu -->
@@ -14,7 +15,7 @@
             v-for="item in publicMenu"
             :key="item.label"
             :to="item.to"
-            class="hover:text-gray-200"
+            class="hover:text-yellow-300 transition-colors"
           >
             {{ item.label }}
           </NuxtLink>
@@ -25,7 +26,7 @@
               v-for="item in roleMenu"
               :key="item.label"
               :to="item.to"
-              class="hover:text-gray-200"
+              class="hover:text-yellow-300 transition-colors"
             >
               {{ item.label }}
             </NuxtLink>

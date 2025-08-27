@@ -34,6 +34,7 @@ const menuByRole: Record<string, { label: string; to: string }[]> = {
     { label: 'Dashboard Siswa', to: '/dashboard/student' },
     { label: 'Kursus Saya', to: '/dashboard/student/courses' },
     { label: 'Tugas', to: '/dashboard/student/tasks' },
+    { label: 'Diskusi', to: '/dashboard/student/discussion' },
     { label: 'Nilai', to: '/dashboard/student/grades' },
     { label: 'Leaderboard', to: '/dashboard/student/leaderboard' },
     { label: 'Sumber Belajar', to: '/dashboard/student/resources' },
