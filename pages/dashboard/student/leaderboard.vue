@@ -27,4 +27,5 @@ const leaderboard = ref([
   { id: 2, name: 'Budi', points: 95 },
   { id: 3, name: 'Citra', points: 80 },
 ])
+definePageMeta({ layout: 'auth' })
 </script>
